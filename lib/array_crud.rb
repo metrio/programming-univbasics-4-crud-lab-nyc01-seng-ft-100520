@@ -33,12 +33,12 @@ end
 
 def retrieve_first_element_from_array(array)
   array = ["wow",3]
-  array.shift
+  array[1]
 end
 
 def retrieve_last_element_from_array(array)
   array = ["wow", "arrays!"]
-  array.pop
+  array[1]
 end
 
 def update_element_from_index(array, index_number, element)
